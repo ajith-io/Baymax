@@ -1,7 +1,7 @@
 # LTTS_StepIN_mini_project
 # Welcome
 # Coordinate Converter 
-Aim: The Aim of the project is to built a coordinate converter which geo coordinates (Latitude/longitude ) to UTM Coordinates
+Aim: The Aim of the project is to built a coordinate converter which converts geo coordinates (Latitude/longitude ) to UTM Coordinates
 Miniproject
 
 
