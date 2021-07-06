@@ -7,4 +7,4 @@ Miniproject
 
 **Currently working on**
 
-will Update the by 12pm 06/07/2021
+will Update the repository by 12pm 06/07/2021
