@@ -34,3 +34,7 @@ Read more about the project at:
 **Currently working on**
 
 
+## Reference for Makefile
+[Mehul Kothari](https://github.com/256182/MINI_PROJECT_LTTS.git)
+
+
