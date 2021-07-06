@@ -5,8 +5,8 @@
 
 <H2> Project Overview</H2>
 
-<H4> The sudden outbreak and global spread of COVID-19 represents one of the most profound societal and public health challenges in modern times. In this Comment, we call attention to the possibility that the societal strategies implemented to oppose COVID-19 might have long-term, negative effects on the <H3>obesity epidemic</H3>. 
-According to a research locking down society to combat COVID-19 creates psychosocial insecurity that may lead to obesity.<H4>
+<H4> The sudden outbreak and global spread of COVID-19 represents one of the most profound societal and public health challenges in modern times. In this Comment, we call attention to the possibility that the societal strategies implemented to oppose COVID-19 might have long-term, negative effects on the Obesity Epidemic. 
+According to a research locking down society to combat COVID-19 creates psychosocial insecurity that may lead to Obesity.</H4>
   
 Keeping the health concern in mind, Introducing
 
