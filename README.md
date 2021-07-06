@@ -2,6 +2,7 @@
 <H1> Baymax-Your Personal Health Coach </H1>
 
 [![C/C++ CI - Build Status](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml)
+[![Contribution Check - Git Inspector](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml)
 
 <H2> Project Overview</H2>
 
