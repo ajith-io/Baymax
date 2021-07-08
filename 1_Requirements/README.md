@@ -3,11 +3,11 @@
 
 ## High Level Requirements
 
-![hlr](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/High_Level_Requirements.csv)
+![hlr](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/csv_images/2.JPG)
 
 ## Low Level Requirements
 
-![llr](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/Low_Level_Requirements.csv)
+![llr](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/csv_images/llr.JPG)
 
 ## Swot Analysis
 
