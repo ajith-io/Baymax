@@ -10,6 +10,16 @@ The sudden outbreak and global spread of COVID-19 represents one of the most pro
 Keeping the health concern in mind, Introducing baymax your personal health coach. It’s a simple yet effective program which gets to know about you and plans a home workout plan accordingly, sets a timer and fully guide you towards it.
 Baymax can be highly improved in the future using data analysis and more user friendly chatbot.
 
+## Baymax Features
+  Features            | Description
+-------------------| -----------------------------------------
+`Chatbot`   | A basic chatbot to get user's input for processing.
+`BMI Calculator`         | A BMI Calculator processed by the user's input.
+`Workout Plan` | Personalised workout plan according to the BMI and user input.
+`Timer`  | Live timer.
+`Live Commands`  | Live commands to guide user throughout the workout .
+`Additional`  | Caloriemeter.
+
 # 4W&#39;s and 1&#39;H
 
 ## Who:
