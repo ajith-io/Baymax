@@ -81,7 +81,7 @@ debug:
 coverage:
 	cp test/test.c .
 	gcc -fprofile-arcs -ftest-coverage $(INC) $(TEST_SRC) -o $(TEST_OUTPUT).$(EXEC)
-	./$(TEST_OUTPUT).$(EXEC)
+	./$(TEST_OUTPUT)
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda
