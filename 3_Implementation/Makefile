@@ -67,7 +67,7 @@ analyze: test memcheck staticcheck coverage sanitize_check
 staticcheck:
 	cppcheck --enable=all -iunity .
 valgrind: 
-	valgrind ./$(TEST_OUTPUT).$(EXEC)
+	valgrind ./$(TEST_OUTPUT)
 memcheck:
 	valgrind ./$(TEST_OUTPUT)
 
@@ -80,7 +80,7 @@ debug:
 
 coverage:
 	cp test/test.c .
-	gcc -fprofile-arcs -ftest-coverage $(INC) $(TEST_SRC) -o $(TEST_OUTPUT).$(EXEC)
+	gcc -fprofile-arcs -ftest-coverage $(INC) $(TEST_SRC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
