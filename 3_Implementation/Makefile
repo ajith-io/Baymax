@@ -36,7 +36,7 @@ INC	= -Iinc\
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
-
+COV_SRC = test.c
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
 
@@ -67,18 +67,29 @@ analyze: test memcheck staticcheck coverage sanitize_check
 staticcheck:
 	cppcheck --enable=all -iunity .
 valgrind: 
-	valgrind ./$(TEST_OUTPUT)
+	valgrind ./$(TEST_OUTPUT).$(EXEC)
 memcheck:
 	valgrind ./$(TEST_OUTPUT)
 
 sanitize_check:
 	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
+debug:
+	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJECT_NAME).$(EXEC)
+	gdb $(PROJECT_NAME).$(EXEC)
 
-coverage:$(TEST_SRC)
-	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
-	gcov -a test.c
+coverage:
+	cp test/test.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_OUTPUT).$(EXEC))
+	$(call FixPath, ./$(TEST_OUTPUT).$(EXEC))
+	gcov -a $(COV_SRC)
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
+	$(RM) *.DAT
+	$(RM) test.c
+
 
 # Remove all the built files, invoke by `make clean`
 clean:
