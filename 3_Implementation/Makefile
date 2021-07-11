@@ -66,7 +66,8 @@ analyze: test memcheck staticcheck coverage sanitize_check
 
 staticcheck:
 	cppcheck --enable=all -iunity .
-
+valgrind: 
+	valgrind ./$(TEST_OUTPUT)
 memcheck:
 	valgrind ./$(TEST_OUTPUT)
 
