@@ -78,17 +78,10 @@ debug:
 	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJECT_NAME).$(EXEC)
 	gdb $(PROJECT_NAME).$(EXEC)
 
-coverage:
-	cp test/test.c .
-	gcc -fprofile-arcs -ftest-coverage $(INC) $(TEST_SRC) -o $(TEST_OUTPUT)
+coverage:$(TEST_SRC)
+	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
-	gcov -a $(COV_SRC)
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
-	$(RM) *.DAT
-	$(RM) test.c
+	gcov -a test.c
 
 
 # Remove all the built files, invoke by `make clean`
