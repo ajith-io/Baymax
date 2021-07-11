@@ -79,7 +79,7 @@ debug:
 	gdb $(PROJECT_NAME).$(EXEC)
 
 coverage:
-	cp test/test.c .
+	cp test/test.c
 	gcc -fprofile-arcs -ftest-coverage $(INC) $(TEST_SRC) -o $(TEST_OUTPUT).$(EXEC)
 	$(call FixPath, ./$(TEST_OUTPUT).$(EXEC))
 	gcov -a $(COV_SRC)
