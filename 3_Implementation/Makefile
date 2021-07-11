@@ -32,7 +32,7 @@ INC	= -Iinc\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
+#INCLUDE_LIBS = 
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
@@ -59,7 +59,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
 	./$(TEST_OUTPUT)
 
 analyze: test memcheck staticcheck coverage sanitize_check
