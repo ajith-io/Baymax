@@ -1,8 +1,11 @@
 # LTTS_StepIN_mini_project
 <H1> Baymax-Your Personal Health Coach </H1>
 
-[![C/C++ CI - Build Status](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml)
-[![Contribution Check - Git Inspector](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml)
+## Details to run project 
+click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).
+Build | Code Quality | Unity | Git Inspector | Coverage
+------|----------|-------|--------------|-------
+[![C/C++ CI - Build Status](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml) | [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml) | [![Unit Testing - Unity](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml) | [![CI-Coverage](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml)
 
 <H2> Project Overview</H2>
 
@@ -11,12 +14,12 @@ According to a research locking down society to combat COVID-19 creates psychoso
   
 Keeping the health concern in mind, Introducing
 
-  
 ![Video](https://media.giphy.com/media/SMtENLJOV94ty/giphy.gif)
-### Hello, I am Baymax - Your Personal Health Coach
+
+## Hello, I am Baymax - Your Personal Health Coach
 
 Read more about the project at:
-[Requirements](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/Requirements/README.md)
+[Requirements](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md)
   
 ## Baymax Features
   Features            | Description
@@ -28,14 +31,13 @@ Read more about the project at:
 `Live Commands`  | Live commands to guide user throughout the workout .
 `Additional`  | Caloriemeter.
 
-
-
-
-
-**Currently working on**
-
-
-## Reference for Makefile
-[Mehul Kothari](https://github.com/256182/MINI_PROJECT_LTTS.git)
-
-
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design_and_Architecture`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
+`5_Report`      | Documents 
+`6_Images_and_Videos`      | Output
+`7_Other`      | other files
