@@ -1,9 +1,16 @@
 #### Message to peer - Only documention and Readme update is remaining rest all working fine in both linux and windows
-
-# LTTS_StepIN_mini_project
+### LTTS_StepIN_mini_project
 <H1> Baymax-Your Personal Health Coach </H1>
 
-#### Details to run project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).
+## User Guide
+
+Details to run project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).                                                       
+To read more about the project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md).                                                 
+For Design and Architecture details click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/README.md).                                 
+To know about all the test plans click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md).
+
+## Badges
+
 Build | Code Quality | Unity | Git Inspector | Coverage
 ------|----------|-------|--------------|-------
 [![C/C++ CI - Build Status](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml) | [![Unit Testing - Unity](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml) | [![CI-Coverage](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml)
@@ -13,7 +20,7 @@ Build | Code Quality | Unity | Git Inspector | Coverage
 <H4> The sudden outbreak and global spread of COVID-19 represents one of the most profound societal and public health challenges in modern times. In this Comment, we call attention to the possibility that the societal strategies implemented to oppose COVID-19 might have long-term, negative effects on the Obesity Epidemic. 
 According to a research locking down society to combat COVID-19 creates psychosocial insecurity that may lead to Obesity.</H4>
   
-Keeping the health concern in mind, Introducing
+Keeping the health concern in mind, Introducing Baymax your personal Health Coach
 
 ![Video](https://media.giphy.com/media/SMtENLJOV94ty/giphy.gif)
 
