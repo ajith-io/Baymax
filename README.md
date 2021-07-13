@@ -6,8 +6,7 @@
 Details to run project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).                                                       
 To read more about the project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md).                                                 
 For Design and Architecture details click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/README.md).                                 
-To know about all the test plans click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md)
-.
+To know about all the test plans click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md).                                    
 To checkout Output click ![here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/Output/README.md)
 ## Badges
 
