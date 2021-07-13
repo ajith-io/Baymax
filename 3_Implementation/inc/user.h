@@ -2,7 +2,6 @@
 #define __USER_C
 
 #define name_len_limit 20
-
 typedef struct User_info {
 	char * name;
     int name_length;

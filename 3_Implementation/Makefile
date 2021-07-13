@@ -9,6 +9,7 @@ SRC = main.c \
 src/user.c \
 src/bmi_calculator.c \
 src/weight_status.c \
+src/run_engine.c\
 src/workout_plan.c 
 
 
@@ -17,6 +18,7 @@ TEST_SRC = src/user.c \
 src/bmi_calculator.c \
 src/weight_status.c \
 src/workout_plan.c \
+src/run_engine.c\
 test/test.c\
 unity/unity.c
 
