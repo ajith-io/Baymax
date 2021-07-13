@@ -14,6 +14,11 @@
 #include "weight_status.h"
 #include "run_engine.h"
 #include "workout_plan.h"
+/**
+ * @brief Run Engine starts the whole program
+ * 
+ * @return int 
+ */
 int main(){
 	run_engine();
 }

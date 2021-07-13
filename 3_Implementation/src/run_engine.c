@@ -1,4 +1,4 @@
-/**
+/**[]
  * @file main.c
  * @author Ajith
  * @brief To start here
@@ -12,10 +12,14 @@
 #include <stdio.h>
 #include "bmi_calculator.h"
 #include "weight_status.h"
-
 #include "workout_plan.h"
 #include "run_engine.h"
-
+#include "unistd.h"
+/**
+ * @brief main function to run whole program
+ * 
+ * @return int 
+ */
 int run_engine(){
     User_info User_1;
 	User_info * User;
@@ -24,7 +28,20 @@ int run_engine(){
 	float bmi_value=0.0;
 	char weight_status_value;
 
-	printf("Hello, I am Baymax. Your Personal Health Coach.\n Before we start, please note down the following instructions.\n INSTRUCTIONS \n 1. Be Gentle with the program. Provide valid input \n ");
+	printf("Hello, I am Baymax. Your Personal Health Coach.\n");
+	sleep(2);
+	printf("\nBefore we start,");
+	sleep(2);
+	printf("please note down the following instructions.\n INSTRUCTIONS \n ");
+	sleep(2);
+	printf("1. Be Gentle with the program. Provide valid input \n ");
+	sleep(1);
+	printf("2. Follow the Instructions as provided");
+	sleep(1);
+	printf(" Let's begin");
+	sleep(2);
+
+
 	/**
 	 * @brief Getting User Name. Using while loop to run
 	 * this forever until the user enters a valid input.
@@ -56,7 +73,7 @@ int run_engine(){
 		 * 
 		 */
 		if(what_c ==1){
-			printf("\n Okay taking values in US Units");
+			printf("\nOkay taking values in US Units");
 			int height_check=0;
 		while(height_check !=1){
 		height_check=get_user_height_US(User);
@@ -78,18 +95,20 @@ int run_engine(){
 
 	}
 	printf("\nCalculating BMI...");
+	sleep(1);
     bmi_value=bmi_calculator_Us(User->user_height,User->user_weight);
-	printf("\n Your BMI Value is %0.3f . ", bmi_value);
+	printf("\nYour BMI Value is %0.3f . ", bmi_value);
+	sleep(2);
 	break;
 	}
 	/**
-	 * @brief if its 2
+	 * @brief if its 2 i.e metric
 	 * 
 	 * @return else 
 	 */
 	else if(what_c==2){
 
-	printf("\n Okay taking values in Metric Units");
+	printf("\nOkay taking values in Metric Units");
 	int height_check=0;
 	while(height_check !=1){
 	height_check=get_user_height_Metric(User);
@@ -100,6 +119,11 @@ int run_engine(){
 	printf("\nThat's a wrong height you entered %s", User->name );}
         
 	}
+	/**
+	 * @brief Getting User Weight. Using while loop to run
+	 * this forever until the user enters a valid input.
+	 * 
+	 */
 	int weight_check=0;
 	while(weight_check !=1){
 		weight_check=get_user_weight_Metric(User);
@@ -111,8 +135,10 @@ int run_engine(){
 
 	}
 	printf("\nCalculating BMI...");
+	sleep(1);
     bmi_value=bmi_calculator_Metric(User->user_height,User->user_weight);
 	printf("\n Your BMI Value is %0.3f . ", bmi_value);
+	sleep(2);
 	break;
 	
 	}
@@ -120,15 +146,19 @@ int run_engine(){
 	}
 	
 	/**
-	 * @brief Getting User Weight. Using while loop to run
-	 * this forever until the user enters a valid input.
+	 * @brief Getting user weight status
+	 * 
 	 * 
 	 */
-	printf("\n\n Weight status is");
+	printf("\n\n BMI status is");
 	weight_status_value = get_weight_status(bmi_value);
-    
+	sleep(1);
+    /**
+     * @brief Selecting weight plan according to the weight status
+     * 
+     */
 	printf("\n\nStarting a workout plan.\n\n Get Ready ");
-	
+	sleep(2);
 	switch(weight_status_value)
 	{
 		case 1:

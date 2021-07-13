@@ -1,3 +1,14 @@
+/**
+ * @file weight_status.c
+ * @author Ajith
+ * @brief 
+ * @version 0.1
+ * @date 2021-07-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "weight_status.h"
 #include <stdio.h>
 

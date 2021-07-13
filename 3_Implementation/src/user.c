@@ -12,8 +12,8 @@
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
-//#include <conio.h>
 #include <stdlib.h>
+#include "unistd.h"
 
 
 #define MAXINPUT 100
@@ -136,7 +136,7 @@ const char* check_input(){
 
 User_info_status get_user_height_US(User_info * User){
   float height;
-    printf("\nEnter height in inches(in) : ");
+    printf("\nEnter height in inches(in) Example for 5 foot 2 inches i.e,(5*12)+2 Enter 62 : ");
 	const char* check_b;
 	check_b=check_input();
 	if(check_b=="wrg"){
@@ -164,7 +164,7 @@ User_info_status get_user_height_US(User_info * User){
  */
 User_info_status get_user_weight_US(User_info * User){
 	int weight;
-	printf("\n Enter Weight in pounds(lb) : ");
+	printf("\n Enter Weight in pounds(lb) : Example for 170lbs Enter 170 :  ");
 	const char* check_b;
 	check_b=check_input();
 	if(check_b=="wrg"){
@@ -188,7 +188,7 @@ User_info_status get_user_weight_US(User_info * User){
  */
 User_info_status get_user_height_Metric(User_info * User){
   float height;
-    printf("\nEnter height in centimetres(cm) : ");
+    printf("\nEnter height in centimetres(cm) : Example for 170cm Enter 170 : ");
 	const char* check_b;
 	check_b=check_input();
 	if(check_b=="wrg"){
@@ -216,7 +216,7 @@ User_info_status get_user_height_Metric(User_info * User){
  */
 User_info_status get_user_weight_Metric(User_info * User){
 	int weight;
-	printf("\n Enter Weight in grams(gms) : ");
+	printf("\n Enter Weight in grams(gms) Example for 70kg Enter 70000: ");
 	const char* check_b;
 	check_b=check_input();
 	if(check_b=="wrg"){
@@ -236,8 +236,10 @@ User_info_status get_user_weight_Metric(User_info * User){
 int in_what(){
 	int what=0;
   printf("\n Choose one of the below units to input height and weight  ");
-  printf("\n1). US units (i.e ., 'Height in inches(in)' & 'Weight in pounds(lb)')");
-  printf("\n2). Metric Units (i.e ., 'Height in cnetimetre (cm)' & 'Weight in grams(gms)') ");
+  sleep(2);
+  printf("\n1). US units (i.e, Height in inches(in) & Weight in pounds(lb))");
+  printf("\n2). Metric Units (i.e, Height in cnetimetre (cm) & Weight in grams(gms))\n ");
+  printf("Press 1 or 2 and Enter : ");
   const char* check_b;
   check_b=check_input();
   if(check_b=="wrg"){

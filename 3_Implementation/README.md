@@ -7,5 +7,7 @@ Hey there, to run Baymax do the following steps
 4) Run `make` 
 5) then `make run`
 
+![GIF](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/How_to_Run.gif)
+
 That's all friend ENJOY and STAY HEALTHY
 
