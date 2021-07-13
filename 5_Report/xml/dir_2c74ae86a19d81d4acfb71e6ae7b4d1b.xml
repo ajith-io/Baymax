@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_2c74ae86a19d81d4acfb71e6ae7b4d1b" kind="dir">
+    <compoundname>3_Implementation/inc</compoundname>
+    <innerfile refid="bmi__calculator_8h">bmi_calculator.h</innerfile>
+    <innerfile refid="run__engine_8h">run_engine.h</innerfile>
+    <innerfile refid="user_8h">user.h</innerfile>
+    <innerfile refid="weight__status_8h">weight_status.h</innerfile>
+    <innerfile refid="workout__plan_8h">workout_plan.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="3_Implementation/inc/"/>
+  </compounddef>
+</doxygen>

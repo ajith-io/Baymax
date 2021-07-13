@@ -1,0 +1,169 @@
+\hypertarget{user_8c}{}\doxysection{3\+\_\+\+Implementation/src/user.c File Reference}
+\label{user_8c}\index{3\_Implementation/src/user.c@{3\_Implementation/src/user.c}}
+
+
+this source file is to get user input  
+
+
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}unistd.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{user_8c_a66b32ab28b717d39138f1dab1f944991}\label{user_8c_a66b32ab28b717d39138f1dab1f944991}} 
+\#define {\bfseries MAXINPUT}~100
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{user_8c_a29207df096f4c00a1ef3f6871d2b9304}{find\+\_\+length}} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\begin{DoxyCompactList}\small\item\em Getting a valid user name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{user_8c_acb1709c6afcf89b6cf949887582da5c3}\label{user_8c_acb1709c6afcf89b6cf949887582da5c3}} 
+int {\bfseries allocate\+\_\+name} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\item 
+\mbox{\Hypertarget{user_8c_a330c0d231f280e4415e6fa32739ea98a}\label{user_8c_a330c0d231f280e4415e6fa32739ea98a}} 
+int {\bfseries initialise\+\_\+name} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\item 
+\mbox{\Hypertarget{user_8c_a6f4f0f1a65f76af618b4751ef12d41bb}\label{user_8c_a6f4f0f1a65f76af618b4751ef12d41bb}} 
+User\+\_\+info\+\_\+status {\bfseries get\+\_\+user\+\_\+name} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\item 
+\mbox{\Hypertarget{user_8c_a9096a3f97b1cc86f86bc23e268420c43}\label{user_8c_a9096a3f97b1cc86f86bc23e268420c43}} 
+void {\bfseries deallocate\+\_\+name} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\item 
+\mbox{\Hypertarget{user_8c_ab9abac26ab4ea336e1998c13881acd6e}\label{user_8c_ab9abac26ab4ea336e1998c13881acd6e}} 
+const char $\ast$ {\bfseries check\+\_\+input} ()
+\item 
+User\+\_\+info\+\_\+status \mbox{\hyperlink{user_8c_ae6e5485c2a70e36c353b4ef10237ae36}{get\+\_\+user\+\_\+height\+\_\+\+US}} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\begin{DoxyCompactList}\small\item\em Get the user height object. \end{DoxyCompactList}\item 
+User\+\_\+info\+\_\+status \mbox{\hyperlink{user_8c_a49687c7f4d03550172fa88bbe0ca8a49}{get\+\_\+user\+\_\+weight\+\_\+\+US}} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\begin{DoxyCompactList}\small\item\em Get the user weight object. \end{DoxyCompactList}\item 
+User\+\_\+info\+\_\+status \mbox{\hyperlink{user_8c_a17e9762b7dc0a6fb0c35b42fda7c9cdf}{get\+\_\+user\+\_\+height\+\_\+\+Metric}} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\begin{DoxyCompactList}\small\item\em Get the user height Metric object. \end{DoxyCompactList}\item 
+User\+\_\+info\+\_\+status \mbox{\hyperlink{user_8c_a56c9d27851152cd0dc2b9c2a70837088}{get\+\_\+user\+\_\+weight\+\_\+\+Metric}} (\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$User)
+\begin{DoxyCompactList}\small\item\em Get the user weight object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{user_8c_a0d1857406c28a5a2f584629fce8d06ff}\label{user_8c_a0d1857406c28a5a2f584629fce8d06ff}} 
+int {\bfseries in\+\_\+what} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{user_8c_aa0aa0bfd1bd9ad506427627a0d9e9ea8}\label{user_8c_aa0aa0bfd1bd9ad506427627a0d9e9ea8}} 
+char \mbox{\hyperlink{user_8c_aa0aa0bfd1bd9ad506427627a0d9e9ea8}{input}} \mbox{[}MAXINPUT\mbox{]} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em this is for error handling of inputs user\+\_\+height and user\+\_\+weight if entered is not a number while loop is used to run until one valid input is provided. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{user_8c_ad2580d4e703fac9f92b5cccfe7340094}\label{user_8c_ad2580d4e703fac9f92b5cccfe7340094}} 
+char {\bfseries flag} \mbox{[}4\mbox{]} =\char`\"{}wrg\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this source file is to get user input 
+
+\begin{DoxyAuthor}{Author}
+Ajith V 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/07-\/11
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{user_8c_a29207df096f4c00a1ef3f6871d2b9304}\label{user_8c_a29207df096f4c00a1ef3f6871d2b9304}} 
+\index{user.c@{user.c}!find\_length@{find\_length}}
+\index{find\_length@{find\_length}!user.c@{user.c}}
+\doxysubsubsection{\texorpdfstring{find\_length()}{find\_length()}}
+{\footnotesize\ttfamily int find\+\_\+length (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$}]{User }\end{DoxyParamCaption})}
+
+
+
+Getting a valid user name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em User} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{user_8c_a17e9762b7dc0a6fb0c35b42fda7c9cdf}\label{user_8c_a17e9762b7dc0a6fb0c35b42fda7c9cdf}} 
+\index{user.c@{user.c}!get\_user\_height\_Metric@{get\_user\_height\_Metric}}
+\index{get\_user\_height\_Metric@{get\_user\_height\_Metric}!user.c@{user.c}}
+\doxysubsubsection{\texorpdfstring{get\_user\_height\_Metric()}{get\_user\_height\_Metric()}}
+{\footnotesize\ttfamily User\+\_\+info\+\_\+status get\+\_\+user\+\_\+height\+\_\+\+Metric (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$}]{User }\end{DoxyParamCaption})}
+
+
+
+Get the user height Metric object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em User} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User\+\_\+info\+\_\+status 
+\end{DoxyReturn}
+\mbox{\Hypertarget{user_8c_ae6e5485c2a70e36c353b4ef10237ae36}\label{user_8c_ae6e5485c2a70e36c353b4ef10237ae36}} 
+\index{user.c@{user.c}!get\_user\_height\_US@{get\_user\_height\_US}}
+\index{get\_user\_height\_US@{get\_user\_height\_US}!user.c@{user.c}}
+\doxysubsubsection{\texorpdfstring{get\_user\_height\_US()}{get\_user\_height\_US()}}
+{\footnotesize\ttfamily User\+\_\+info\+\_\+status get\+\_\+user\+\_\+height\+\_\+\+US (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$}]{User }\end{DoxyParamCaption})}
+
+
+
+Get the user height object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em User} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User\+\_\+info\+\_\+status 
+\end{DoxyReturn}
+\mbox{\Hypertarget{user_8c_a56c9d27851152cd0dc2b9c2a70837088}\label{user_8c_a56c9d27851152cd0dc2b9c2a70837088}} 
+\index{user.c@{user.c}!get\_user\_weight\_Metric@{get\_user\_weight\_Metric}}
+\index{get\_user\_weight\_Metric@{get\_user\_weight\_Metric}!user.c@{user.c}}
+\doxysubsubsection{\texorpdfstring{get\_user\_weight\_Metric()}{get\_user\_weight\_Metric()}}
+{\footnotesize\ttfamily User\+\_\+info\+\_\+status get\+\_\+user\+\_\+weight\+\_\+\+Metric (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$}]{User }\end{DoxyParamCaption})}
+
+
+
+Get the user weight object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em User} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User\+\_\+info\+\_\+status 
+\end{DoxyReturn}
+\mbox{\Hypertarget{user_8c_a49687c7f4d03550172fa88bbe0ca8a49}\label{user_8c_a49687c7f4d03550172fa88bbe0ca8a49}} 
+\index{user.c@{user.c}!get\_user\_weight\_US@{get\_user\_weight\_US}}
+\index{get\_user\_weight\_US@{get\_user\_weight\_US}!user.c@{user.c}}
+\doxysubsubsection{\texorpdfstring{get\_user\_weight\_US()}{get\_user\_weight\_US()}}
+{\footnotesize\ttfamily User\+\_\+info\+\_\+status get\+\_\+user\+\_\+weight\+\_\+\+US (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_user__info}{User\+\_\+info}} $\ast$}]{User }\end{DoxyParamCaption})}
+
+
+
+Get the user weight object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em User} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User\+\_\+info\+\_\+status 
+\end{DoxyReturn}

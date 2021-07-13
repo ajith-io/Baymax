@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_3__implementation__r_e_a_d_m_e" kind="page">
+    <compoundname>md_3_Implementation_README</compoundname>
+    <title>How to run Baymax</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Hey there, to run Baymax do the following steps 1) Clone or Download the repository in your system 2) Navigate to 3_Implementation folder 3) Open your terminal here with this path 4) Run <computeroutput>make</computeroutput> 5) then <computeroutput>make run</computeroutput></para>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/How_to_Run.gif" alt="GIF" inline="yes"></image>
+</para>
+<para>That&apos;s all friend ENJOY and STAY HEALTHY </para>
+    </detaileddescription>
+    <location file="3_Implementation/README.md"/>
+  </compounddef>
+</doxygen>

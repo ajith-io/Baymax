@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="2___design__and___architecture_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Design<sp/>And<sp/>Architecture</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>*Behavioural<sp/>UML<sp/>Diagram*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Activity<sp/>UML<sp/>Diagram</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Activity](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Behavioural_UML_Diagram/Activity_UML_Diagram/Activity_UML_Diagram.JPG)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Use<sp/>case<sp/>UML<sp/>Diagram</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Activity](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Behavioural_UML_Diagram/Use_Case_UML_Diagram/USECASE.JPG)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>*Structural<sp/>UML<sp/>Diagram*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>UML<sp/>Class<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![class](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Structural_UML_Diagram/UML%20class%20.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>UML<sp/>Component<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![component](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Structural_UML_Diagram/UML%20Component.png)</highlight></codeline>
+    </programlisting>
+    <location file="2_Design_and_Architecture/README.md"/>
+  </compounddef>
+</doxygen>

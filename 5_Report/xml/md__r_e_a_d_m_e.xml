@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Message to peer - Only documention and Readme update is remaining rest all working fine in both linux and windows</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect2 id="md__r_e_a_d_m_e_1autotoc_md29">
+<title>LTTS_StepIN_mini_project</title>
+<para><heading level="1">Baymax-Your Personal Health Coach </heading>
+</para>
+</sect2>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md30">
+<title>User Guide</title>
+<para>Details to run project click <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md">here</ulink>. <linebreak/>
+ To read more about the project click <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md">here</ulink>. <linebreak/>
+ For Design and Architecture details click <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/README.md">here</ulink>. <linebreak/>
+ To know about all the test plans click <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md">here</ulink>.</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md31">
+<title>Badges</title>
+<para><table rows="2" cols="5"><row>
+<entry thead="yes"><para>Build   </para>
+</entry><entry thead="yes"><para>Code Quality   </para>
+</entry><entry thead="yes"><para>Unity   </para>
+</entry><entry thead="yes"><para>Git Inspector   </para>
+</entry><entry thead="yes"><para>Coverage    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg" alt="C/C++ CI - Build Status" inline="yes"></image>
+</ulink>   </para>
+</entry><entry thead="no"><para><ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml/badge.svg" alt="Code Quality - Static Code - Cppcheck" inline="yes"></image>
+</ulink> <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml/badge.svg" alt="CodeQuality Dynamic Code Analysis Valgrind" inline="yes"></image>
+</ulink>   </para>
+</entry><entry thead="no"><para><ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml/badge.svg" alt="Unit Testing - Unity" inline="yes"></image>
+</ulink>   </para>
+</entry><entry thead="no"><para><ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg" alt="Contribution Check - Git Inspector" inline="yes"></image>
+</ulink>   </para>
+</entry><entry thead="no"><para><ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml"><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml/badge.svg" alt="CI-Coverage" inline="yes"></image>
+</ulink>   </para>
+</entry></row>
+</table>
+</para>
+<para><heading level="2">Project Overview</heading>
+</para>
+<para><heading level="4">The sudden outbreak and global spread of COVID-19 represents one of the most profound societal and public health challenges in modern times. In this Comment, we call attention to the possibility that the societal strategies implemented to oppose COVID-19 might have long-term, negative effects on the Obesity Epidemic. According to a research locking down society to combat COVID-19 creates psychosocial insecurity that may lead to Obesity.</heading>
+</para>
+<para>Keeping the health concern in mind, Introducing Baymax your personal Health Coach</para>
+<para><image type="html" name="https://media.giphy.com/media/SMtENLJOV94ty/giphy.gif" alt="Video" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md32">
+<title>Hello, I am Baymax - Your Personal Health Coach</title>
+<para>Read more about the project at: <ulink url="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md">Requirements</ulink></para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md33">
+<title>Baymax Features</title>
+<para><table rows="7" cols="2"><row>
+<entry thead="yes"><para>Features   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Chatbot</computeroutput>   </para>
+</entry><entry thead="no"><para>A basic chatbot to get user&apos;s input for processing.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>BMI Calculator</computeroutput>   </para>
+</entry><entry thead="no"><para>A BMI Calculator processed by the user&apos;s input.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Workout Plan</computeroutput>   </para>
+</entry><entry thead="no"><para>Personalised workout plan according to the BMI and user input.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Timer</computeroutput>   </para>
+</entry><entry thead="no"><para>Live timer.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Live Commands</computeroutput>   </para>
+</entry><entry thead="no"><para>Live commands to guide user throughout the workout .    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Additional</computeroutput>   </para>
+</entry><entry thead="no"><para>Caloriemeter.   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md34">
+<title>Folder Structure</title>
+<para><table rows="8" cols="2"><row>
+<entry thead="yes"><para>Folder   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>1_Requirements</computeroutput>   </para>
+</entry><entry thead="no"><para>Documents detailing requirements and research    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>2_Design_and_Architecture</computeroutput>   </para>
+</entry><entry thead="no"><para>Documents specifying design details    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>3_Implementation</computeroutput>   </para>
+</entry><entry thead="no"><para>All code and documentation    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>4_Test_plan</computeroutput>   </para>
+</entry><entry thead="no"><para>Documents with test plans and procedures    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>5_Report</computeroutput>   </para>
+</entry><entry thead="no"><para>Documents    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>6_Images_and_Videos</computeroutput>   </para>
+</entry><entry thead="no"><para>Output    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>7_Other</computeroutput>   </para>
+</entry><entry thead="no"><para>other files   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

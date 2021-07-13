@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="4___test___plan_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>TEST<sp/>PLAN:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Table<sp/>no:<sp/>High<sp/>level<sp/>test<sp/>plan</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>**Test<sp/>ID**<sp/>|<sp/>**Description**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>**Exp<sp/>I/P**<sp/>|<sp/>**Exp<sp/>O/P**<sp/>|<sp/>**Actual<sp/>Out**<sp/>|**Type<sp/>Of<sp/>Test**<sp/><sp/>|<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>H_01<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Get<sp/>Proper<sp/>User<sp/>name|<sp/><sp/>String<sp/>|<sp/>User<sp/>detail<sp/>stored<sp/>as<sp/>string|String<sp/>stored|Requirement<sp/>based<sp/>`|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>H_02<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Get<sp/>proper<sp/>value<sp/>to<sp/>choose<sp/>between<sp/>US<sp/>and<sp/>Metric<sp/>Units|<sp/><sp/>int<sp/>value<sp/>&apos;1&apos;<sp/>or<sp/>&apos;2&apos;<sp/>|selects<sp/>unit<sp/>|unit<sp/>selected<sp/>|Scenario<sp/>based<sp/>`<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>H_03<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Get<sp/>proper<sp/>Height<sp/>and<sp/>Weight<sp/>for<sp/>US<sp/>Units|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>H_04<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Get<sp/>proper<sp/>Height<sp/>and<sp/>Weight<sp/>for<sp/>US<sp/>Units|<sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct|int<sp/>stored|Requirement<sp/>based<sp/><sp/>`<sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Table<sp/>no:<sp/>Low<sp/>level<sp/>test<sp/>plan</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>**Test<sp/>ID**|<sp/>**Under<sp/>ID**<sp/>|<sp/>**Description**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>**Exp<sp/>I/P**<sp/>|<sp/>**Exp<sp/>O/P**<sp/>|<sp/>**Actual<sp/>Out**<sp/>|**Type<sp/>Of<sp/>Test**<sp/><sp/>|<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|-------------|-----|---------------------------------------------------------|------------|-------------|----------------|------------------|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_01<sp/>|<sp/><sp/>H_01<sp/><sp/><sp/><sp/>|`Only<sp/>accept<sp/>string<sp/>else<sp/>prompt<sp/>error<sp/>and<sp/>ask<sp/>again.|<sp/><sp/>String<sp/>|<sp/>User<sp/>detail<sp/>stored<sp/>as<sp/>string|String<sp/>stored|Requirement<sp/>based<sp/>`|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_02<sp/>|<sp/><sp/>H_01<sp/><sp/><sp/><sp/>|`Check<sp/>for<sp/>numbers<sp/>symbols|<sp/><sp/>String<sp/>|<sp/>User<sp/>detail<sp/>stored<sp/>as<sp/>string|String<sp/>stored|Requirement<sp/>based<sp/>`|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_03<sp/>|<sp/><sp/>H_01<sp/><sp/><sp/><sp/>|`convert<sp/>all<sp/>the<sp/>characters<sp/>to<sp/>lowercase<sp/>if<sp/>any<sp/>provided<sp/>with<sp/>varying<sp/>cases|<sp/><sp/>String<sp/>|<sp/>User<sp/>detail<sp/>stored<sp/>as<sp/>string|String<sp/>stored|Requirement<sp/>based<sp/>`|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_01<sp/><sp/>|<sp/>H_02<sp/><sp/><sp/><sp/><sp/><sp/>|`Get<sp/>proper<sp/>value<sp/>to<sp/>choose<sp/>between<sp/>US<sp/>and<sp/>Metric<sp/>Units|<sp/><sp/>int<sp/>value<sp/>&apos;1&apos;<sp/>or<sp/>&apos;2&apos;<sp/>|selects<sp/>unit<sp/>|unit<sp/>selected<sp/>|Scenario<sp/>based<sp/>`<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_01<sp/>|<sp/>H_03<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Only<sp/>accept<sp/>string<sp/>else<sp/>prompt<sp/>error<sp/>and<sp/>ask<sp/>again|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_02<sp/>|<sp/>H_03<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`check<sp/>if<sp/>the<sp/>entered<sp/>value<sp/>is<sp/>a<sp/>character<sp/>or<sp/>symbol|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_03<sp/>|<sp/>H_03<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`check<sp/>if<sp/>height<sp/>&amp;<sp/>weight<sp/>is<sp/>provided<sp/>in<sp/>valid<sp/>range|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_01<sp/>|<sp/>H_04<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`Only<sp/>accept<sp/>string<sp/>else<sp/>prompt<sp/>error<sp/>and<sp/>ask<sp/>again|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_02<sp/>|<sp/>H_04<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`check<sp/>if<sp/>the<sp/>entered<sp/>value<sp/>is<sp/>a<sp/>character<sp/>or<sp/>symbol|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>L_03<sp/>|<sp/>H_04<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|`check<sp/>if<sp/>height<sp/>&amp;<sp/>weight<sp/>is<sp/>provided<sp/>in<sp/>valid<sp/>range|<sp/><sp/>int<sp/>value<sp/>|int<sp/>updates<sp/>user<sp/>struct<sp/>|int<sp/>stored<sp/>|Requirement<sp/>based`<sp/><sp/><sp/><sp/>|</highlight></codeline>
+    </programlisting>
+    <location file="4_Test_Plan/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="3___implementation_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>run<sp/>Baymax</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Hey<sp/>there,<sp/>to<sp/>run<sp/>Baymax<sp/>do<sp/>the<sp/>following<sp/>steps</highlight></codeline>
+<codeline><highlight class="normal">1)<sp/>Clone<sp/>or<sp/>Download<sp/>the<sp/>repository<sp/>in<sp/>your<sp/>system</highlight></codeline>
+<codeline><highlight class="normal">2)<sp/>Navigate<sp/>to<sp/>3_Implementation<sp/>folder<sp/></highlight></codeline>
+<codeline><highlight class="normal">3)<sp/>Open<sp/>your<sp/>terminal<sp/>here<sp/>with<sp/>this<sp/>path</highlight></codeline>
+<codeline><highlight class="normal">4)<sp/>Run<sp/>`make`<sp/></highlight></codeline>
+<codeline><highlight class="normal">5)<sp/>then<sp/>`make<sp/>run`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![GIF](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/How_to_Run.gif)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">That&apos;s<sp/>all<sp/>friend<sp/>ENJOY<sp/>and<sp/>STAY<sp/>HEALTHY</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="3_Implementation/README.md"/>
+  </compounddef>
+</doxygen>

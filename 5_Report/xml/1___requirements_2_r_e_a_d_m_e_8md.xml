@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="1___requirements_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Requirements</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Baymax<sp/>-<sp/>Your<sp/>Personal<sp/>Health<sp/>Coach</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![gif](https://media.giphy.com/media/gCANwADwdazG8/giphy.gif)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Introduction</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>sudden<sp/>outbreak<sp/>and<sp/>global<sp/>spread<sp/>of<sp/>COVID-19<sp/>represents<sp/>one<sp/>of<sp/>the<sp/>most<sp/>profound<sp/>societal<sp/>and<sp/>public<sp/>health<sp/>challenges<sp/>in<sp/>modern<sp/>times.<sp/>In<sp/>this<sp/>Comment,<sp/>we<sp/>call<sp/>attention<sp/>to<sp/>the<sp/>possibility<sp/>that<sp/>the<sp/>societal<sp/>strategies<sp/>implemented<sp/>to<sp/>oppose<sp/>COVID-19<sp/>might<sp/>have<sp/>long-term,<sp/>negative<sp/>effects<sp/>on<sp/>the<sp/>Obesity<sp/>Epidemic.<sp/>According<sp/>to<sp/>a<sp/>research<sp/>locking<sp/>down<sp/>society<sp/>to<sp/>combat<sp/>COVID-19<sp/>creates<sp/>psychosocial<sp/>insecurity<sp/>that<sp/>may<sp/>lead<sp/>to<sp/>Obesity.</highlight></codeline>
+<codeline><highlight class="normal">Keeping<sp/>the<sp/>health<sp/>concern<sp/>in<sp/>mind,<sp/>Introducing<sp/>baymax<sp/>your<sp/>personal<sp/>health<sp/>coach.<sp/>It’s<sp/>a<sp/>simple<sp/>yet<sp/>effective<sp/>program<sp/>which<sp/>gets<sp/>to<sp/>know<sp/>about<sp/>you<sp/>and<sp/>plans<sp/>a<sp/>home<sp/>workout<sp/>plan<sp/>accordingly,<sp/>sets<sp/>a<sp/>timer<sp/>and<sp/>fully<sp/>guide<sp/>you<sp/>towards<sp/>it.</highlight></codeline>
+<codeline><highlight class="normal">Baymax<sp/>can<sp/>be<sp/>highly<sp/>improved<sp/>in<sp/>the<sp/>future<sp/>using<sp/>data<sp/>analysis<sp/>and<sp/>more<sp/>user<sp/>friendly<sp/>chatbot.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Baymax<sp/>Features</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>Features<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Description</highlight></codeline>
+<codeline><highlight class="normal">-------------------|<sp/>-----------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">`Chatbot`<sp/><sp/><sp/>|<sp/>A<sp/>basic<sp/>chatbot<sp/>to<sp/>get<sp/>user&apos;s<sp/>input<sp/>for<sp/>processing.</highlight></codeline>
+<codeline><highlight class="normal">`BMI<sp/>Calculator`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>A<sp/>BMI<sp/>Calculator<sp/>processed<sp/>by<sp/>the<sp/>user&apos;s<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal">`Workout<sp/>Plan`<sp/>|<sp/>Personalised<sp/>workout<sp/>plan<sp/>according<sp/>to<sp/>the<sp/>BMI<sp/>and<sp/>user<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal">`Timer`<sp/><sp/>|<sp/>Live<sp/>timer.</highlight></codeline>
+<codeline><highlight class="normal">`Live<sp/>Commands`<sp/><sp/>|<sp/>Live<sp/>commands<sp/>to<sp/>guide<sp/>user<sp/>throughout<sp/>the<sp/>workout<sp/>.</highlight></codeline>
+<codeline><highlight class="normal">`Additional`<sp/><sp/>|<sp/>Caloriemeter.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>4W&amp;#39;s<sp/>and<sp/>1&amp;#39;H</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Who:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**To<sp/>all<sp/>the<sp/>health<sp/>conscious<sp/>people<sp/>stuck<sp/>in<sp/>places<sp/>due<sp/>to<sp/>lockdown**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>What:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**This<sp/>is<sp/>a<sp/>simple<sp/>guiding<sp/>program<sp/>which<sp/>will<sp/>take<sp/>users<sp/>input<sp/>and<sp/>make<sp/>a<sp/>workout<sp/>plan<sp/>acoordingly<sp/>then<sp/>it<sp/>will<sp/>guide<sp/>them<sp/>to<sp/>perfome<sp/>the<sp/>workouts<sp/>with<sp/>proper<sp/>timing<sp/>feature.**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>When:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**This<sp/>program<sp/>concerns<sp/>individuals<sp/>health.<sp/>So,<sp/>this<sp/>can<sp/>be<sp/>played<sp/>irrespective<sp/>of<sp/>what<sp/>age<sp/>they<sp/>are.**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Where:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**This<sp/>program<sp/>can<sp/>run<sp/>in<sp/>just<sp/>the<sp/>command<sp/>line<sp/>environment,<sp/>which<sp/>now<sp/>every<sp/>major<sp/>OS<sp/>supports.**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**User<sp/>needs<sp/>to<sp/>press<sp/>an<sp/>integer<sp/>that<sp/>indicates<sp/>to<sp/>the<sp/>game<sp/>that<sp/>he<sp/>has<sp/>selected<sp/>the<sp/>character<sp/>among<sp/>a<sp/>list<sp/>of<sp/>characters<sp/>being<sp/>displayed.<sp/>User<sp/>interacts<sp/>with<sp/>the<sp/>gameplay<sp/>through<sp/>the<sp/>keyboard.**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Swot<sp/>Analysis</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![swot](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/f62e4affe9d157e852320ac17fbeb6591946b268/1_Requirements/Swot_Analysis.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Detail<sp/>Requirements</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>High<sp/>Level<sp/>Requirements</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>ID_1<sp/>|<sp/>ID_2<sp/>|<sp/>ID<sp/><sp/><sp/>|<sp/>DESCRIPTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>STATUS<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>----<sp/>|<sp/>----<sp/>|<sp/>----<sp/>|<sp/>-------------------------------------------------------------------------------------------------------------------------------------<sp/>|<sp/>-----------<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>HLR<sp/><sp/>|<sp/>1<sp/><sp/><sp/><sp/>|<sp/>HLR1<sp/>|<sp/><sp/>A<sp/>USER<sp/>FRIENDLY<sp/>QUERY<sp/>BOT<sp/>WHICH<sp/>PROMTS<sp/>USER<sp/>TO<sp/>ENTER<sp/>NAME<sp/>AND<sp/>OTHER<sp/>REQUIRED<sp/>DETAILS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>HLR<sp/><sp/>|<sp/>2<sp/><sp/><sp/><sp/>|<sp/>HLR2<sp/>|<sp/><sp/>A<sp/>BMI<sp/>CALCULATOR<sp/>WHICH<sp/>GET<sp/>IT&apos;S<sp/>VALUE<sp/>FROM<sp/>THE<sp/>QUERY<sp/>BOT<sp/>AND<sp/>PROCESS<sp/>AND<sp/>CATEGORISE<sp/>USER<sp/>INTO<sp/>ONE<sp/>OUT<sp/>OF<sp/>THE<sp/>FIVE<sp/>BODY<sp/>WEIGHT<sp/>STATUS<sp/>|<sp/>IMPLEMENTED<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>HLR<sp/><sp/>|<sp/>3<sp/><sp/><sp/><sp/>|<sp/>HLR3<sp/>|<sp/><sp/>A<sp/>WORKPLAN<sp/>CHART<sp/>ACCORDING<sp/>TO<sp/>THE<sp/>WEIGHT<sp/>STATUS<sp/>WITH<sp/>LIVE<sp/>COMMAND,<sp/>LIVE<sp/>TIMER,<sp/>WITH<sp/>AN<sp/>OPTION<sp/>TO<sp/>SKIP<sp/>AND<sp/>CONTINUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>HLR<sp/><sp/>|<sp/>4<sp/><sp/><sp/><sp/>|<sp/>HLR4<sp/>|<sp/><sp/>A<sp/>DAILY<sp/>REMINDER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>FUTURE<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Low<sp/>Level<sp/>Requirements</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>ID_1<sp/>|<sp/>ID_2<sp/>|<sp/>ID<sp/><sp/><sp/>|<sp/>HLR_ID<sp/>|<sp/>DESCRIPTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>----<sp/>|<sp/>----<sp/>|<sp/>----<sp/>|<sp/>------<sp/>|<sp/>---------------------------------------------------------------------------------------------------------<sp/>|<sp/>------------<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>1<sp/><sp/><sp/><sp/>|<sp/>LLR1<sp/>|<sp/>HLR1<sp/><sp/><sp/>|<sp/>WELCOME<sp/>MESSAGE<sp/>WITH<sp/>INSTRUCTIONS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>2<sp/><sp/><sp/><sp/>|<sp/>LLR2<sp/>|<sp/>HLR1<sp/><sp/><sp/>|<sp/><sp/>GET<sp/>USER&apos;S<sp/>NAME<sp/>AND<sp/>AGE,<sp/>ACKNOWLEDGE<sp/>USER<sp/>WITH<sp/>THEIR<sp/>NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>3<sp/><sp/><sp/><sp/>|<sp/>LLR3<sp/>|<sp/>HLR1<sp/><sp/><sp/>|<sp/><sp/>GET<sp/>USER&apos;S<sp/>HEIGHT<sp/>AND<sp/>WEIGHT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>4<sp/><sp/><sp/><sp/>|<sp/>LLR1<sp/>|<sp/>HLR2<sp/><sp/><sp/>|<sp/><sp/>USE<sp/>FORMULA<sp/>TO<sp/>CALCULATE<sp/>BMI<sp/>OF<sp/>THE<sp/>USER<sp/>AND<sp/>INDICATE<sp/>USER<sp/>ABOUT<sp/>THE<sp/>SAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>5<sp/><sp/><sp/><sp/>|<sp/>LLR2<sp/>|<sp/>HLR2<sp/><sp/><sp/>|<sp/><sp/>USING<sp/>CONDITIONAL<sp/>STATEMENTS<sp/>TO<sp/>ASSIGN<sp/>WEIGHT<sp/>STATUS<sp/>OF<sp/>THE<sp/>BMI<sp/>OUTPUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>6<sp/><sp/><sp/><sp/>|<sp/>LLR1<sp/>|<sp/>HLR3<sp/><sp/><sp/>|<sp/><sp/>ASSIGNING<sp/>A<sp/>WORKPLAN<sp/>CHART<sp/>ACCORDING<sp/>TO<sp/>THE<sp/>WEIGHT<sp/>STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>IMPLEMENTED<sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>7<sp/><sp/><sp/><sp/>|<sp/>LLR2<sp/>|<sp/>HLR3<sp/><sp/><sp/>|<sp/><sp/>A<sp/>TIMER<sp/>PROGRAM<sp/>EXEXUTED<sp/>FOR<sp/>HOW<sp/>LONG<sp/>AN<sp/>EXERCISE<sp/>WILL<sp/>GO<sp/>ON<sp/>AND<sp/>PROVIDING<sp/>SPECIFIC<sp/>INTERVALS<sp/>IN<sp/>BETWEEN<sp/>|<sp/><sp/>IMPLEMENTED<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>8<sp/><sp/><sp/><sp/>|<sp/>LLR3<sp/>|<sp/>HLR3<sp/><sp/><sp/>|<sp/><sp/>ONCE<sp/>THE<sp/>WORKOUT<sp/>IS<sp/>OVER<sp/>CONGRATULATORY<sp/>MESSAGE<sp/>WITH<sp/>FUTURE<sp/>GUIDANCE<sp/>WILL<sp/>BE<sp/>PROVIDED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>IMPLEMENTED<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>9<sp/><sp/><sp/><sp/>|<sp/>LLR1<sp/>|<sp/>HLR4<sp/><sp/><sp/>|<sp/><sp/><sp/>A<sp/>USER<sp/>FRIENDLY<sp/>CHATBOT<sp/>ANSWERING<sp/>ALL<sp/>THE<sp/>RANDOM<sp/>QUESTIONS<sp/>ASKED<sp/>BY<sp/>THE<sp/>HUMAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>FUTURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>10<sp/><sp/><sp/>|<sp/>LLR2<sp/>|<sp/>HLR4<sp/><sp/><sp/>|<sp/><sp/>DISPLAYING<sp/>THE<sp/>IMAGES<sp/>OF<sp/>THE<sp/>WORKOUTS<sp/>TO<sp/>BE<sp/>DONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>FUTURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>11<sp/><sp/><sp/>|<sp/>LLR3<sp/>|<sp/>HLR4<sp/><sp/><sp/>|<sp/><sp/>A<sp/>PROPER<sp/>ANALYSIS<sp/>WITH<sp/>MORE<sp/>USER<sp/>INPUTS<sp/>LIKE<sp/>AGE<sp/>DIET<sp/>ETC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>FUTURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>LLR<sp/><sp/>|<sp/>12<sp/><sp/><sp/>|<sp/>LLR4<sp/>|<sp/>HLR4<sp/><sp/><sp/>|<sp/><sp/><sp/>A<sp/>DAILY<sp/>REMINDER<sp/>TO<sp/>USER<sp/>TO<sp/>DO<sp/>THE<sp/>WORKOUTS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>FUTURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Cost<sp/>and<sp/>Analysis</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>S<sp/>NO<sp/>|<sp/>FEATURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>COST<sp/>(INR)<sp/>|<sp/>TIME<sp/>(IN<sp/>HRS)<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>----<sp/>|<sp/>--------------<sp/>|<sp/>----------<sp/>|<sp/>-------------<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>1<sp/><sp/><sp/><sp/>|<sp/>QueryBot<sp/>play<sp/><sp/>|<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>2<sp/><sp/><sp/><sp/>|<sp/>BMI<sp/>Calculator<sp/>|<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>3<sp/><sp/><sp/><sp/>|<sp/>Workout<sp/>Plan<sp/><sp/><sp/>|<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>6<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>4<sp/><sp/><sp/><sp/>|<sp/>Timer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>0.5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="1_Requirements/README.md"/>
+  </compounddef>
+</doxygen>

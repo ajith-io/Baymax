@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_7__other__r_e_a_d_m_e" kind="page">
+    <compoundname>md_7_Other_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>#*resources*#</para>
+<sect3 id="md_7__other__r_e_a_d_m_e_1autotoc_md26">
+<title>Workout Plans</title>
+<para>1) <ulink url="https://www.healthline.com/health/exercise-to-gain-weight#exercises-for-women-and-men">https://www.healthline.com/health/exercise-to-gain-weight#exercises-for-women-and-men</ulink></para>
+<para>2) <ulink url="https://www.coachmag.co.uk/workouts/home-workouts">https://www.coachmag.co.uk/workouts/home-workouts</ulink></para>
+<para>3) <ulink url="https://www.muscleandstrength.com/workout-routines">https://www.muscleandstrength.com/workout-routines</ulink> </para>
+</sect3>
+    </detaileddescription>
+    <location file="7_Other/README.md"/>
+  </compounddef>
+</doxygen>

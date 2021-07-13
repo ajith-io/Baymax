@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="user_8h" kind="file" language="C++">
+    <compoundname>user.h</compoundname>
+    <includedby refid="main_8c" local="yes">3_Implementation/main.c</includedby>
+    <includedby refid="run__engine_8c" local="yes">3_Implementation/src/run_engine.c</includedby>
+    <includedby refid="user_8c" local="yes">3_Implementation/src/user.c</includedby>
+    <includedby refid="test_8c" local="yes">3_Implementation/test/test.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>3_Implementation/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>3_Implementation/src/user.c</label>
+        <link refid="user_8c"/>
+      </node>
+      <node id="1">
+        <label>3_Implementation/inc/user.h</label>
+        <link refid="user_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_user__info" prot="public">User_info</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="user_8h_1a1ff1cf0a62b94721c559c051f965d137" prot="public" static="no">
+        <name>name_len_limit</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="4" column="9" bodyfile="3_Implementation/inc/user.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="user_8h_1a77cad958dd67e03f8a8f51445a07e672" prot="public" static="no" strong="no">
+        <type></type>
+        <name>User_info_status</name>
+        <enumvalue id="user_8h_1a77cad958dd67e03f8a8f51445a07e672a480bb69ede798673f6c23119fc23cb49" prot="public">
+          <name>not_valid_name</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="user_8h_1a77cad958dd67e03f8a8f51445a07e672aa32f884d95a6e2cee12d69a6dda45d4c" prot="public">
+          <name>not_valid_digit</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="user_8h_1a77cad958dd67e03f8a8f51445a07e672acff2ca215a4f8ecf1097bdb0c57004e9" prot="public">
+          <name>valid_name</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="user_8h_1a77cad958dd67e03f8a8f51445a07e672a97ef3d2984521ace66df82180c25451e" prot="public">
+          <name>valid_digit</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="user_8h_1a77cad958dd67e03f8a8f51445a07e672a394d2d6177348cf5091682cadead41be" prot="public">
+          <name>no_mem</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="13" column="1" bodyfile="3_Implementation/inc/user.h" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="user_8h_1a6aba2250fe841505b055e7399ba6d298" prot="public" static="no">
+        <type>struct <ref refid="struct_user__info" kindref="compound">User_info</ref></type>
+        <definition>typedef struct User_info User_info</definition>
+        <argsstring></argsstring>
+        <name>User_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="11" column="11"/>
+      </memberdef>
+      <memberdef kind="typedef" id="user_8h_1a363fa474e9c31f3ac48f1029e93db6ce" prot="public" static="no">
+        <type>enum User_info_status</type>
+        <definition>typedef enum User_info_status User_info_status</definition>
+        <argsstring></argsstring>
+        <name>User_info_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="20" column="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="user_8h_1a0d1857406c28a5a2f584629fce8d06ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int in_what</definition>
+        <argsstring>()</argsstring>
+        <name>in_what</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="21" column="5" bodyfile="3_Implementation/src/user.c" bodystart="236" bodyend="260" declfile="3_Implementation/inc/user.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1abda674c48068a1dca1293f7ec61e0f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int intialise_name</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>intialise_name</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="22" column="5" declfile="3_Implementation/inc/user.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1a503e5e9095701cfcfe523a744c4c4e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_length</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>find_length</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+<para>Getting a valid user name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>User</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="24" column="5" bodyfile="3_Implementation/src/user.c" bodystart="28" bodyend="39" declfile="3_Implementation/inc/user.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1abf8c2eeb3e55abe3c2a968b5a60ad995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int allocate_name</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>allocate_name</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="25" column="5" bodyfile="3_Implementation/src/user.c" bodystart="42" bodyend="53" declfile="3_Implementation/inc/user.h" declline="25" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1aa92d9a52d5ac129f81ab0547e6a60150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>User_info_status</type>
+        <definition>User_info_status get_user_name</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>get_user_name</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="27" column="18" bodyfile="3_Implementation/src/user.c" bodystart="67" bodyend="89" declfile="3_Implementation/inc/user.h" declline="27" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1a762bd497f4b08393619cc6690b703b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>User_info_status</type>
+        <definition>User_info_status get_user_height_US</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>get_user_height_US</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+<para>Get the user height object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>User</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>User_info_status </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="28" column="18" bodyfile="3_Implementation/src/user.c" bodystart="137" bodyend="158" declfile="3_Implementation/inc/user.h" declline="28" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1aaee124aedc221abe83e69ca809dda9db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>User_info_status</type>
+        <definition>User_info_status get_user_weight_US</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>get_user_weight_US</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+<para>Get the user weight object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>User</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>User_info_status </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="29" column="18" bodyfile="3_Implementation/src/user.c" bodystart="165" bodyend="182" declfile="3_Implementation/inc/user.h" declline="29" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1a18374ca0e8acf282b3ad43d521776239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>User_info_status</type>
+        <definition>User_info_status get_user_height_Metric</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>get_user_height_Metric</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+<para>Get the user height Metric object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>User</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>User_info_status </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="30" column="18" bodyfile="3_Implementation/src/user.c" bodystart="189" bodyend="210" declfile="3_Implementation/inc/user.h" declline="30" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1a9850c03e8dcb6932c802fae79eea6eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>User_info_status</type>
+        <definition>User_info_status get_user_weight_Metric</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>get_user_weight_Metric</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+<para>Get the user weight object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>User</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>User_info_status </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="31" column="18" bodyfile="3_Implementation/src/user.c" bodystart="217" bodyend="234" declfile="3_Implementation/inc/user.h" declline="31" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="user_8h_1a54c7dc2ce708da04081cc1ea9d862213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deallocate_name</definition>
+        <argsstring>(User_info *)</argsstring>
+        <name>deallocate_name</name>
+        <param>
+          <type><ref refid="struct_user__info" kindref="compound">User_info</ref> *</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="32" column="6" bodyfile="3_Implementation/src/user.c" bodystart="91" bodyend="94" declfile="3_Implementation/inc/user.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__USER_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__USER_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>name_len_limit<sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="struct_user__info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>name_length;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>user_weight;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>user_height;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<sp/><ref refid="struct_user__info" kindref="compound">User_info</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>User_info_status{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>not_valid_name<sp/>=<sp/>-1,<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>not_valid_digit<sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>valid_name<sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>valid_digit<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>no_mem<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/>User_info_status;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>in_what();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intialise_name(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>intialise_which_lvl(User_info<sp/>*);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="user_8c_1a29207df096f4c00a1ef3f6871d2b9304" kindref="member">find_length</ref>(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>allocate_name(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>change_lvl(User_info<sp/>*,<sp/>int<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">User_info_status<sp/>get_user_name(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">User_info_status<sp/><ref refid="user_8c_1ae6e5485c2a70e36c353b4ef10237ae36" kindref="member">get_user_height_US</ref>(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">User_info_status<sp/><ref refid="user_8c_1a49687c7f4d03550172fa88bbe0ca8a49" kindref="member">get_user_weight_US</ref>(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">User_info_status<sp/><ref refid="user_8c_1a17e9762b7dc0a6fb0c35b42fda7c9cdf" kindref="member">get_user_height_Metric</ref>(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">User_info_status<sp/><ref refid="user_8c_1a56c9d27851152cd0dc2b9c2a70837088" kindref="member">get_user_weight_Metric</ref>(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>deallocate_name(<ref refid="struct_user__info" kindref="compound">User_info</ref><sp/>*);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="3_Implementation/inc/user.h"/>
+  </compounddef>
+</doxygen>

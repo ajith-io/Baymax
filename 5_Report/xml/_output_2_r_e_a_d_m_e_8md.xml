@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_output_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Output<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![GIF](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/6_Images_and_Videos/Output.gif)</highlight></codeline>
+    </programlisting>
+    <location file="Output/README.md"/>
+  </compounddef>
+</doxygen>

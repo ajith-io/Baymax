@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="workout__plan_8h" kind="file" language="C++">
+    <compoundname>workout_plan.h</compoundname>
+    <includedby refid="main_8c" local="yes">3_Implementation/main.c</includedby>
+    <includedby refid="run__engine_8c" local="yes">3_Implementation/src/run_engine.c</includedby>
+    <includedby refid="workout__plan_8c" local="yes">3_Implementation/src/workout_plan.c</includedby>
+    <includedby refid="test_8c" local="yes">3_Implementation/test/test.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>3_Implementation/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="1">
+        <label>3_Implementation/inc/workout_plan.h</label>
+        <link refid="workout__plan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>3_Implementation/src/workout_plan.c</label>
+        <link refid="workout__plan_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="workout__plan_8h_1a805c99eeaa1746e37b055df71df1cc9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void workout_1</definition>
+        <argsstring>()</argsstring>
+        <name>workout_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="4" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="40" bodyend="94" declfile="3_Implementation/inc/workout_plan.h" declline="4" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1a133011c92bf2f986e1af6afb13d60924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void workout_2</definition>
+        <argsstring>()</argsstring>
+        <name>workout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="5" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="96" bodyend="161" declfile="3_Implementation/inc/workout_plan.h" declline="5" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1a1fe9533424d5fb32971a9a4d17ba22aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void workout_3</definition>
+        <argsstring>()</argsstring>
+        <name>workout_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="6" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="163" bodyend="250" declfile="3_Implementation/inc/workout_plan.h" declline="6" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1a95c34e563f62e7535f41724a042f8fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void workout_4</definition>
+        <argsstring>()</argsstring>
+        <name>workout_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="7" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="252" bodyend="337" declfile="3_Implementation/inc/workout_plan.h" declline="7" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1a327d555c8c0ea65a49e1cedd6f8b037e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void workout_5</definition>
+        <argsstring>()</argsstring>
+        <name>workout_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="8" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="339" bodyend="427" declfile="3_Implementation/inc/workout_plan.h" declline="8" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1aa87ec1e43b2d9019752c235d0a78072e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void timer_30</definition>
+        <argsstring>()</argsstring>
+        <name>timer_30</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="9" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="28" bodyend="39" declfile="3_Implementation/inc/workout_plan.h" declline="9" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="workout__plan_8h_1a714c18ab9820176fab79f2c1c3b8f4a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void timer_10</definition>
+        <argsstring>()</argsstring>
+        <name>timer_10</name>
+        <briefdescription>
+<para>Set of workouts researched and assigned to different weight status. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/workout_plan.h" line="10" column="6" bodyfile="3_Implementation/src/workout_plan.c" bodystart="18" bodyend="27" declfile="3_Implementation/inc/workout_plan.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__WORKOUT__PLAN_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WORKOUT__PLAN_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>workout_1();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>workout_2();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>workout_3();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>workout_4();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>workout_5();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>timer_30();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="workout__plan_8c_1a714c18ab9820176fab79f2c1c3b8f4a7" kindref="member">timer_10</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="3_Implementation/inc/workout_plan.h"/>
+  </compounddef>
+</doxygen>

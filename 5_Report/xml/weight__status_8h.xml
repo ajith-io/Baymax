@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="weight__status_8h" kind="file" language="C++">
+    <compoundname>weight_status.h</compoundname>
+    <includedby refid="main_8c" local="yes">3_Implementation/main.c</includedby>
+    <includedby refid="run__engine_8c" local="yes">3_Implementation/src/run_engine.c</includedby>
+    <includedby refid="weight__status_8c" local="yes">3_Implementation/src/weight_status.c</includedby>
+    <includedby refid="test_8c" local="yes">3_Implementation/test/test.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>3_Implementation/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="1">
+        <label>3_Implementation/inc/weight_status.h</label>
+        <link refid="weight__status_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>3_Implementation/src/weight_status.c</label>
+        <link refid="weight__status_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="weight__status_8h_1aeb4f244b9a9b0274d26a0e406ce65677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char get_weight_status</definition>
+        <argsstring>(float x)</argsstring>
+        <name>get_weight_status</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/weight_status.h" line="4" column="6" bodyfile="3_Implementation/src/weight_status.c" bodystart="15" bodyend="47" declfile="3_Implementation/inc/weight_status.h" declline="4" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__WEIGHT__STATUS_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEIGHT__STATUS_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>get_weight_status(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="3_Implementation/inc/weight_status.h"/>
+  </compounddef>
+</doxygen>

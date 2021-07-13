@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_2__design_and__architecture__r_e_a_d_m_e" kind="page">
+    <compoundname>md_2_Design_and_Architecture_README</compoundname>
+    <title>Design And Architecture</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md16">
+<title>&lt;em&gt;Behavioural UML Diagram&lt;/em&gt;</title>
+<sect2 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md17">
+<title>Activity UML Diagram</title>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Behavioural_UML_Diagram/Activity_UML_Diagram/Activity_UML_Diagram.JPG" alt="Activity" inline="yes"></image>
+</para>
+</sect2>
+<sect2 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md18">
+<title>Use case UML Diagram</title>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Behavioural_UML_Diagram/Use_Case_UML_Diagram/USECASE.JPG" alt="Activity" inline="yes"></image>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md19">
+<title>&lt;em&gt;Structural UML Diagram&lt;/em&gt;</title>
+<sect2 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md20">
+<title>UML Class</title>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Structural_UML_Diagram/UML%20class%20.png" alt="class" inline="yes"></image>
+</para>
+</sect2>
+<sect2 id="md_2__design_and__architecture__r_e_a_d_m_e_1autotoc_md21">
+<title>UML Component</title>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/Structural_UML_Diagram/UML%20Component.png" alt="component" inline="yes"></image>
+ </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="2_Design_and_Architecture/README.md"/>
+  </compounddef>
+</doxygen>

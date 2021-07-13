@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_1__requirements__r_e_a_d_m_e" kind="page">
+    <compoundname>md_1_Requirements_README</compoundname>
+    <title>Requirements</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md1">
+<title>Baymax - Your Personal Health Coach</title>
+<para><image type="html" name="https://media.giphy.com/media/gCANwADwdazG8/giphy.gif" alt="gif" inline="yes"></image>
+</para>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md2">
+<title>Introduction</title>
+<para>The sudden outbreak and global spread of COVID-19 represents one of the most profound societal and public health challenges in modern times. In this Comment, we call attention to the possibility that the societal strategies implemented to oppose COVID-19 might have long-term, negative effects on the Obesity Epidemic. According to a research locking down society to combat COVID-19 creates psychosocial insecurity that may lead to Obesity. Keeping the health concern in mind, Introducing baymax your personal health coach. It’s a simple yet effective program which gets to know about you and plans a home workout plan accordingly, sets a timer and fully guide you towards it. Baymax can be highly improved in the future using data analysis and more user friendly chatbot.</para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md3">
+<title>Baymax Features</title>
+<para><table rows="7" cols="2"><row>
+<entry thead="yes"><para>Features   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Chatbot</computeroutput>   </para>
+</entry><entry thead="no"><para>A basic chatbot to get user&apos;s input for processing.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>BMI Calculator</computeroutput>   </para>
+</entry><entry thead="no"><para>A BMI Calculator processed by the user&apos;s input.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Workout Plan</computeroutput>   </para>
+</entry><entry thead="no"><para>Personalised workout plan according to the BMI and user input.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Timer</computeroutput>   </para>
+</entry><entry thead="no"><para>Live timer.    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Live Commands</computeroutput>   </para>
+</entry><entry thead="no"><para>Live commands to guide user throughout the workout .    </para>
+</entry></row>
+<row>
+<entry thead="no"><para><computeroutput>Additional</computeroutput>   </para>
+</entry><entry thead="no"><para>Caloriemeter.   </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md4">
+<title>4W&amp;#39;s and 1&amp;#39;H</title>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md5">
+<title>Who:</title>
+<para><bold>To all the health conscious people stuck in places due to lockdown</bold></para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md6">
+<title>What:</title>
+<para><bold>This is a simple guiding program which will take users input and make a workout plan acoordingly then it will guide them to perfome the workouts with proper timing feature.</bold></para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md7">
+<title>When:</title>
+<para><bold>This program concerns individuals health. So, this can be played irrespective of what age they are.</bold></para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md8">
+<title>Where:</title>
+<para><bold>This program can run in just the command line environment, which now every major OS supports.</bold></para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md9">
+<title>How:</title>
+<para><bold>User needs to press an integer that indicates to the game that he has selected the character among a list of characters being displayed. User interacts with the gameplay through the keyboard.</bold></para>
+</sect2>
+</sect1>
+<sect1 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md10">
+<title>Swot Analysis</title>
+<para><image type="html" name="https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/f62e4affe9d157e852320ac17fbeb6591946b268/1_Requirements/Swot_Analysis.png" alt="swot" inline="yes"></image>
+</para>
+</sect1>
+<sect1 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md11">
+<title>Detail Requirements</title>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md12">
+<title>High Level Requirements</title>
+<para><table rows="5" cols="5"><row>
+<entry thead="yes"><para>ID_1   </para>
+</entry><entry thead="yes"><para>ID_2   </para>
+</entry><entry thead="yes"><para>ID   </para>
+</entry><entry thead="yes"><para>DESCRIPTION   </para>
+</entry><entry thead="yes"><para>STATUS    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>HLR   </para>
+</entry><entry thead="no"><para>1   </para>
+</entry><entry thead="no"><para>HLR1   </para>
+</entry><entry thead="no"><para>A USER FRIENDLY QUERY BOT WHICH PROMTS USER TO ENTER NAME AND OTHER REQUIRED DETAILS   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>HLR   </para>
+</entry><entry thead="no"><para>2   </para>
+</entry><entry thead="no"><para>HLR2   </para>
+</entry><entry thead="no"><para>A BMI CALCULATOR WHICH GET IT&apos;S VALUE FROM THE QUERY BOT AND PROCESS AND CATEGORISE USER INTO ONE OUT OF THE FIVE BODY WEIGHT STATUS   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>HLR   </para>
+</entry><entry thead="no"><para>3   </para>
+</entry><entry thead="no"><para>HLR3   </para>
+</entry><entry thead="no"><para>A WORKPLAN CHART ACCORDING TO THE WEIGHT STATUS WITH LIVE COMMAND, LIVE TIMER, WITH AN OPTION TO SKIP AND CONTINUE   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>HLR   </para>
+</entry><entry thead="no"><para>4   </para>
+</entry><entry thead="no"><para>HLR4   </para>
+</entry><entry thead="no"><para>A DAILY REMINDER   </para>
+</entry><entry thead="no"><para>FUTURE   </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+<sect2 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md13">
+<title>Low Level Requirements</title>
+<para><table rows="13" cols="6"><row>
+<entry thead="yes"><para>ID_1   </para>
+</entry><entry thead="yes"><para>ID_2   </para>
+</entry><entry thead="yes"><para>ID   </para>
+</entry><entry thead="yes"><para>HLR_ID   </para>
+</entry><entry thead="yes"><para>DESCRIPTION   </para>
+</entry><entry thead="yes"><para>STATUS    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>1   </para>
+</entry><entry thead="no"><para>LLR1   </para>
+</entry><entry thead="no"><para>HLR1   </para>
+</entry><entry thead="no"><para>WELCOME MESSAGE WITH INSTRUCTIONS   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>2   </para>
+</entry><entry thead="no"><para>LLR2   </para>
+</entry><entry thead="no"><para>HLR1   </para>
+</entry><entry thead="no"><para>GET USER&apos;S NAME AND AGE, ACKNOWLEDGE USER WITH THEIR NAME   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>3   </para>
+</entry><entry thead="no"><para>LLR3   </para>
+</entry><entry thead="no"><para>HLR1   </para>
+</entry><entry thead="no"><para>GET USER&apos;S HEIGHT AND WEIGHT   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>4   </para>
+</entry><entry thead="no"><para>LLR1   </para>
+</entry><entry thead="no"><para>HLR2   </para>
+</entry><entry thead="no"><para>USE FORMULA TO CALCULATE BMI OF THE USER AND INDICATE USER ABOUT THE SAME   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>5   </para>
+</entry><entry thead="no"><para>LLR2   </para>
+</entry><entry thead="no"><para>HLR2   </para>
+</entry><entry thead="no"><para>USING CONDITIONAL STATEMENTS TO ASSIGN WEIGHT STATUS OF THE BMI OUTPUT   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>6   </para>
+</entry><entry thead="no"><para>LLR1   </para>
+</entry><entry thead="no"><para>HLR3   </para>
+</entry><entry thead="no"><para>ASSIGNING A WORKPLAN CHART ACCORDING TO THE WEIGHT STATUS   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>7   </para>
+</entry><entry thead="no"><para>LLR2   </para>
+</entry><entry thead="no"><para>HLR3   </para>
+</entry><entry thead="no"><para>A TIMER PROGRAM EXEXUTED FOR HOW LONG AN EXERCISE WILL GO ON AND PROVIDING SPECIFIC INTERVALS IN BETWEEN   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>8   </para>
+</entry><entry thead="no"><para>LLR3   </para>
+</entry><entry thead="no"><para>HLR3   </para>
+</entry><entry thead="no"><para>ONCE THE WORKOUT IS OVER CONGRATULATORY MESSAGE WITH FUTURE GUIDANCE WILL BE PROVIDED   </para>
+</entry><entry thead="no"><para>IMPLEMENTED    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>9   </para>
+</entry><entry thead="no"><para>LLR1   </para>
+</entry><entry thead="no"><para>HLR4   </para>
+</entry><entry thead="no"><para>A USER FRIENDLY CHATBOT ANSWERING ALL THE RANDOM QUESTIONS ASKED BY THE HUMAN   </para>
+</entry><entry thead="no"><para>FUTURE    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>10   </para>
+</entry><entry thead="no"><para>LLR2   </para>
+</entry><entry thead="no"><para>HLR4   </para>
+</entry><entry thead="no"><para>DISPLAYING THE IMAGES OF THE WORKOUTS TO BE DONE   </para>
+</entry><entry thead="no"><para>FUTURE    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>11   </para>
+</entry><entry thead="no"><para>LLR3   </para>
+</entry><entry thead="no"><para>HLR4   </para>
+</entry><entry thead="no"><para>A PROPER ANALYSIS WITH MORE USER INPUTS LIKE AGE DIET ETC   </para>
+</entry><entry thead="no"><para>FUTURE    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>LLR   </para>
+</entry><entry thead="no"><para>12   </para>
+</entry><entry thead="no"><para>LLR4   </para>
+</entry><entry thead="no"><para>HLR4   </para>
+</entry><entry thead="no"><para>A DAILY REMINDER TO USER TO DO THE WORKOUTS   </para>
+</entry><entry thead="no"><para>FUTURE   </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+</sect1>
+<sect1 id="md_1__requirements__r_e_a_d_m_e_1autotoc_md14">
+<title>Cost and Analysis</title>
+<para><table rows="5" cols="4"><row>
+<entry thead="yes"><para>S NO   </para>
+</entry><entry thead="yes"><para>FEATURE   </para>
+</entry><entry thead="yes"><para>COST (INR)   </para>
+</entry><entry thead="yes"><para>TIME (IN HRS)    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>1   </para>
+</entry><entry thead="no"><para>QueryBot play   </para>
+</entry><entry thead="no"><para>0   </para>
+</entry><entry thead="no"><para>3    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>2   </para>
+</entry><entry thead="no"><para>BMI Calculator   </para>
+</entry><entry thead="no"><para>0   </para>
+</entry><entry thead="no"><para>4    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>3   </para>
+</entry><entry thead="no"><para>Workout Plan   </para>
+</entry><entry thead="no"><para>0   </para>
+</entry><entry thead="no"><para>6    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>4   </para>
+</entry><entry thead="no"><para>Timer   </para>
+</entry><entry thead="no"><para>0   </para>
+</entry><entry thead="no"><para>0.5   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="1_Requirements/README.md"/>
+  </compounddef>
+</doxygen>

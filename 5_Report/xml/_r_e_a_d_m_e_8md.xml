@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">####<sp/>Message<sp/>to<sp/>peer<sp/>-<sp/>Only<sp/>documention<sp/>and<sp/>Readme<sp/>update<sp/>is<sp/>remaining<sp/>rest<sp/>all<sp/>working<sp/>fine<sp/>in<sp/>both<sp/>linux<sp/>and<sp/>windows</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>LTTS_StepIN_mini_project</highlight></codeline>
+<codeline><highlight class="normal">&lt;H1&gt;<sp/>Baymax-Your<sp/>Personal<sp/>Health<sp/>Coach<sp/>&lt;/H1&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>User<sp/>Guide</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Details<sp/>to<sp/>run<sp/>project<sp/>click<sp/>[here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">To<sp/>read<sp/>more<sp/>about<sp/>the<sp/>project<sp/>click<sp/>[here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md).<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">For<sp/>Design<sp/>and<sp/>Architecture<sp/>details<sp/>click<sp/>[here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/README.md).<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">To<sp/>know<sp/>about<sp/>all<sp/>the<sp/>test<sp/>plans<sp/>click<sp/>[here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Badges</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Build<sp/>|<sp/>Code<sp/>Quality<sp/>|<sp/>Unity<sp/>|<sp/>Git<sp/>Inspector<sp/>|<sp/>Coverage</highlight></codeline>
+<codeline><highlight class="normal">------|----------|-------|--------------|-------</highlight></codeline>
+<codeline><highlight class="normal">[![C/C++<sp/>CI<sp/>-<sp/>Build<sp/>Status](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cbuild.yml)<sp/>|<sp/>[![Code<sp/>Quality<sp/>-<sp/>Static<sp/>Code<sp/>-<sp/>Cppcheck](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/cppcheck.yml)<sp/>[![CodeQuality<sp/>Dynamic<sp/>Code<sp/>Analysis<sp/>Valgrind](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/dynamicanalysis.yml)<sp/>|<sp/>[![Unit<sp/>Testing<sp/>-<sp/>Unity](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/unity.yml)<sp/>|<sp/>[![Contribution<sp/>Check<sp/>-<sp/>Git<sp/>Inspector](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/gitinspector.yml)<sp/>|<sp/>[![CI-Coverage](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml/badge.svg)](https://github.com/ajith-io/LTTS_StepIN_mini_project/actions/workflows/coverage.yml)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;H2&gt;<sp/>Project<sp/>Overview&lt;/H2&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;H4&gt;<sp/>The<sp/>sudden<sp/>outbreak<sp/>and<sp/>global<sp/>spread<sp/>of<sp/>COVID-19<sp/>represents<sp/>one<sp/>of<sp/>the<sp/>most<sp/>profound<sp/>societal<sp/>and<sp/>public<sp/>health<sp/>challenges<sp/>in<sp/>modern<sp/>times.<sp/>In<sp/>this<sp/>Comment,<sp/>we<sp/>call<sp/>attention<sp/>to<sp/>the<sp/>possibility<sp/>that<sp/>the<sp/>societal<sp/>strategies<sp/>implemented<sp/>to<sp/>oppose<sp/>COVID-19<sp/>might<sp/>have<sp/>long-term,<sp/>negative<sp/>effects<sp/>on<sp/>the<sp/>Obesity<sp/>Epidemic.<sp/></highlight></codeline>
+<codeline><highlight class="normal">According<sp/>to<sp/>a<sp/>research<sp/>locking<sp/>down<sp/>society<sp/>to<sp/>combat<sp/>COVID-19<sp/>creates<sp/>psychosocial<sp/>insecurity<sp/>that<sp/>may<sp/>lead<sp/>to<sp/>Obesity.&lt;/H4&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">Keeping<sp/>the<sp/>health<sp/>concern<sp/>in<sp/>mind,<sp/>Introducing<sp/>Baymax<sp/>your<sp/>personal<sp/>Health<sp/>Coach</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Video](https://media.giphy.com/media/SMtENLJOV94ty/giphy.gif)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Hello,<sp/>I<sp/>am<sp/>Baymax<sp/>-<sp/>Your<sp/>Personal<sp/>Health<sp/>Coach</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Read<sp/>more<sp/>about<sp/>the<sp/>project<sp/>at:</highlight></codeline>
+<codeline><highlight class="normal">[Requirements](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Baymax<sp/>Features</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>Features<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Description</highlight></codeline>
+<codeline><highlight class="normal">-------------------|<sp/>-----------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">`Chatbot`<sp/><sp/><sp/>|<sp/>A<sp/>basic<sp/>chatbot<sp/>to<sp/>get<sp/>user&apos;s<sp/>input<sp/>for<sp/>processing.</highlight></codeline>
+<codeline><highlight class="normal">`BMI<sp/>Calculator`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>A<sp/>BMI<sp/>Calculator<sp/>processed<sp/>by<sp/>the<sp/>user&apos;s<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal">`Workout<sp/>Plan`<sp/>|<sp/>Personalised<sp/>workout<sp/>plan<sp/>according<sp/>to<sp/>the<sp/>BMI<sp/>and<sp/>user<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal">`Timer`<sp/><sp/>|<sp/>Live<sp/>timer.</highlight></codeline>
+<codeline><highlight class="normal">`Live<sp/>Commands`<sp/><sp/>|<sp/>Live<sp/>commands<sp/>to<sp/>guide<sp/>user<sp/>throughout<sp/>the<sp/>workout<sp/>.</highlight></codeline>
+<codeline><highlight class="normal">`Additional`<sp/><sp/>|<sp/>Caloriemeter.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Folder<sp/>Structure</highlight></codeline>
+<codeline><highlight class="normal">Folder<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Description</highlight></codeline>
+<codeline><highlight class="normal">-------------------|<sp/>-----------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">`1_Requirements`<sp/><sp/><sp/>|<sp/>Documents<sp/>detailing<sp/>requirements<sp/>and<sp/>research</highlight></codeline>
+<codeline><highlight class="normal">`2_Design_and_Architecture`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Documents<sp/>specifying<sp/>design<sp/>details</highlight></codeline>
+<codeline><highlight class="normal">`3_Implementation`<sp/>|<sp/>All<sp/>code<sp/>and<sp/>documentation</highlight></codeline>
+<codeline><highlight class="normal">`4_Test_plan`<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Documents<sp/>with<sp/>test<sp/>plans<sp/>and<sp/>procedures</highlight></codeline>
+<codeline><highlight class="normal">`5_Report`<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Documents<sp/></highlight></codeline>
+<codeline><highlight class="normal">`6_Images_and_Videos`<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Output</highlight></codeline>
+<codeline><highlight class="normal">`7_Other`<sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>other<sp/>files</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

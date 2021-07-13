@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_f25e30dbfdd802e3b195909000443926" kind="dir">
+    <compoundname>2_Design_and_Architecture</compoundname>
+    <innerdir refid="dir_44d7d605313ffc4429277679bf8ad03f">2_Design_and_Architecture/Behavioural_UML_Diagram</innerdir>
+    <innerdir refid="dir_8cdea71115275fe8a1c1408b916cc58c">2_Design_and_Architecture/Structural_UML_Diagram</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="2_Design_and_Architecture/"/>
+  </compounddef>
+</doxygen>

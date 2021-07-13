@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_4__test__plan__r_e_a_d_m_e" kind="page">
+    <compoundname>md_4_Test_Plan_README</compoundname>
+    <title>TEST PLAN:</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="md_4__test__plan__r_e_a_d_m_e_1autotoc_md24">
+<title>Table no: High level test plan</title>
+<para><table rows="3" cols="14"><row>
+<entry thead="yes"><para><bold>Test ID</bold>   </para>
+</entry><entry thead="yes"><para><bold>Description</bold>   </para>
+</entry><entry thead="yes"><para><bold>Exp I/P</bold>   </para>
+</entry><entry thead="yes"><para><bold>Exp O/P</bold>   </para>
+</entry><entry thead="yes"><para><bold>Actual Out</bold>   </para>
+</entry><entry thead="yes"><para><bold>Type Of Test</bold>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>H_01   </para>
+</entry><entry thead="no"><para><computeroutput>Get Proper User name \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; User detail stored as string \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String stored \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; Requirement based</computeroutput>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>H_02   </para>
+</entry><entry thead="no"><para><lsquo/>Get proper value to choose between US and Metric Units   </para>
+</entry><entry thead="no"><para>int value &apos;1<rsquo/> or &apos;2&apos;   </para>
+</entry><entry thead="no"><para>selects unit   </para>
+</entry><entry thead="no"><para>unit selected   </para>
+</entry><entry thead="no"><para>Scenario based <computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowOdd&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>Get proper Height and Weight for US Units   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowEven&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_04 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>Get proper Height and Weight for US Units   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based `   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+<sect1 id="md_4__test__plan__r_e_a_d_m_e_1autotoc_md25">
+<title>Table no: Low level test plan</title>
+<para><table rows="5" cols="31"><row>
+<entry thead="yes"><para><bold>Test ID</bold>   </para>
+</entry><entry thead="yes"><para><bold>Under ID</bold>   </para>
+</entry><entry thead="yes"><para><bold>Description</bold>   </para>
+</entry><entry thead="yes"><para><bold>Exp I/P</bold>   </para>
+</entry><entry thead="yes"><para><bold>Exp O/P</bold>   </para>
+</entry><entry thead="yes"><para><bold>Actual Out</bold>   </para>
+</entry><entry thead="yes"><para><bold>Type Of Test</bold>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>L_01   </para>
+</entry><entry thead="no"><para>H_01   </para>
+</entry><entry thead="no"><para><computeroutput>Only accept string else prompt error and ask again. \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; User detail stored as string \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String stored \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; Requirement based</computeroutput>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>L_02   </para>
+</entry><entry thead="no"><para>H_01   </para>
+</entry><entry thead="no"><para><computeroutput>Check for numbers symbols \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; User detail stored as string \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String stored \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; Requirement based</computeroutput>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>L_03   </para>
+</entry><entry thead="no"><para>H_01   </para>
+</entry><entry thead="no"><para><computeroutput>convert all the characters to lowercase if any provided with varying cases \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; User detail stored as string \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; String stored \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; Requirement based</computeroutput>    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>L_01   </para>
+</entry><entry thead="no"><para>H_02   </para>
+</entry><entry thead="no"><para><lsquo/>Get proper value to choose between US and Metric Units   </para>
+</entry><entry thead="no"><para>int value &apos;1<rsquo/> or &apos;2&apos;   </para>
+</entry><entry thead="no"><para>selects unit   </para>
+</entry><entry thead="no"><para>unit selected   </para>
+</entry><entry thead="no"><para>Scenario based <computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowOdd&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_01 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>Only accept string else prompt error and ask again   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowEven&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_02 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>check if the entered value is a character or symbol   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowOdd&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>check if height &amp; weight is provided in valid range   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowEven&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_01 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_04 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>Only accept string else prompt error and ask again   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowOdd&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_02 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_04 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>check if the entered value is a character or symbol   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based<computeroutput>\ilinebr &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;markdownTableRowEven&quot;&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; L_03 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt; H_04 \ilinebr &lt;/td&gt; &lt;td class=&quot;markdownTableBodyNone&quot;&gt;</computeroutput>check if height &amp; weight is provided in valid range   </para>
+</entry><entry thead="no"><para>int value   </para>
+</entry><entry thead="no"><para>int updates user struct   </para>
+</entry><entry thead="no"><para>int stored   </para>
+</entry><entry thead="no"><para>Requirement based`   </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="4_Test_Plan/README.md"/>
+  </compounddef>
+</doxygen>

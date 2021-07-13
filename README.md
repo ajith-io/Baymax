@@ -1,4 +1,3 @@
-#### Message to peer - Only documention and Readme update is remaining rest all working fine in both linux and windows
 ### LTTS_StepIN_mini_project
 <H1> Baymax-Your Personal Health Coach </H1>
 
@@ -7,8 +6,9 @@
 Details to run project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/3_Implementation/README.md).                                                       
 To read more about the project click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/1_Requirements/README.md).                                                 
 For Design and Architecture details click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/2_Design_and_Architecture/README.md).                                 
-To know about all the test plans click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md).
-
+To know about all the test plans click [here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/4_Test_Plan/README.md)
+.
+To checkout Output click ![here](https://github.com/ajith-io/LTTS_StepIN_mini_project/blob/main/Output/README.md)
 ## Badges
 
 Build | Code Quality | Unity | Git Inspector | Coverage
@@ -49,3 +49,4 @@ Folder             | Description
 `5_Report`      | Documents 
 `6_Images_and_Videos`      | Output
 `7_Other`      | other files
+

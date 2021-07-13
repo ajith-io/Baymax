@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_2__design_and__architecture__behavioural__u_m_l__diagram__use__case__u_m_l__diagram__r_e_a_d_m_e" kind="page">
+    <compoundname>md_2_Design_and_Architecture_Behavioural_UML_Diagram_Use_Case_UML_Diagram_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>USE CASE UML DIAGRAMS </para>
+    </detaileddescription>
+    <location file="2_Design_and_Architecture/Behavioural_UML_Diagram/Use_Case_UML_Diagram/README.md"/>
+  </compounddef>
+</doxygen>

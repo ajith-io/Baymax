@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="run__engine_8h" kind="file" language="C++">
+    <compoundname>run_engine.h</compoundname>
+    <includedby refid="main_8c" local="yes">3_Implementation/main.c</includedby>
+    <includedby refid="run__engine_8c" local="yes">3_Implementation/src/run_engine.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>3_Implementation/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="1">
+        <label>3_Implementation/inc/run_engine.h</label>
+        <link refid="run__engine_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="run__engine_8h_1ad0ede0696b213f8022d82f8f6229a751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int run_engine</definition>
+        <argsstring>(void)</argsstring>
+        <name>run_engine</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>main function to run whole program </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Getting User Name. Using while loop to run this forever until the user enters a valid input.</para>
+<para>Getting User Height. Using while loop to run this forever until the user enters a valid input.</para>
+<para>Construct a new if object is 1</para>
+<para>if its 2 i.e metric</para>
+<para><simplesect kind="return"><para>else</para>
+</simplesect>
+Getting User Weight. Using while loop to run this forever until the user enters a valid input.</para>
+<para>Getting user weight status</para>
+<para>Selecting weight plan according to the weight status</para>
+        </inbodydescription>
+        <location file="3_Implementation/inc/run_engine.h" line="4" column="5" bodyfile="3_Implementation/src/run_engine.c" bodystart="23" bodyend="189" declfile="3_Implementation/inc/run_engine.h" declline="4" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__RUN__ENGINE_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RUN__ENGINE_C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>run_engine(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="3_Implementation/inc/run_engine.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_user__info" kind="struct" language="C++" prot="public">
+    <compoundname>User_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_user__info_1a5ac083a645d964373f022d03df4849c8" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="6" column="7" bodyfile="3_Implementation/inc/user.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_user__info_1a30f743cf370421b3e7f4913d99bb782c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int name_length</definition>
+        <argsstring></argsstring>
+        <name>name_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="7" column="9" bodyfile="3_Implementation/inc/user.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_user__info_1ad02dbaa9a9029300baadd4991e0c1eb1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int user_weight</definition>
+        <argsstring></argsstring>
+        <name>user_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="8" column="5" bodyfile="3_Implementation/inc/user.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_user__info_1ac60639d64999fa7d01271a5c9c075af1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int user_height</definition>
+        <argsstring></argsstring>
+        <name>user_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="3_Implementation/inc/user.h" line="9" column="5" bodyfile="3_Implementation/inc/user.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="3_Implementation/inc/user.h" line="5" column="1" bodyfile="3_Implementation/inc/user.h" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="struct_user__info_1a5ac083a645d964373f022d03df4849c8" prot="public" virt="non-virtual"><scope>User_info</scope><name>name</name></member>
+      <member refid="struct_user__info_1a30f743cf370421b3e7f4913d99bb782c" prot="public" virt="non-virtual"><scope>User_info</scope><name>name_length</name></member>
+      <member refid="struct_user__info_1ac60639d64999fa7d01271a5c9c075af1" prot="public" virt="non-virtual"><scope>User_info</scope><name>user_height</name></member>
+      <member refid="struct_user__info_1ad02dbaa9a9029300baadd4991e0c1eb1" prot="public" virt="non-virtual"><scope>User_info</scope><name>user_weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

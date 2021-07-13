@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="7___other_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#*resources*#</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Workout<sp/>Plans</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1)<sp/>https://www.healthline.com/health/exercise-to-gain-weight#exercises-for-women-and-men</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2)<sp/>https://www.coachmag.co.uk/workouts/home-workouts</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3)<sp/>https://www.muscleandstrength.com/workout-routines</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="7_Other/README.md"/>
+  </compounddef>
+</doxygen>
