@@ -7,7 +7,7 @@
 |  H_01       |`Get Proper User name`|  String | User detail stored as string|String stored|Requirement based |
 |  H_02       |`Get proper value to choose between US and Metric Units`|  int value '1' or '2' |selects unit |unit selected |Scenario based   |
 |  H_03       |`Get proper Height and Weight for US Units|  int value `|int updates user struct |int stored |Requirement based    |
-|  H_04       |`Get proper Height and Weight for US Units| int value `|int updates user struct|int stored|Requirement based    |
+|  H_04       |`Get proper Height and Weight for Metric Units| int value `|int updates user struct|int stored|Requirement based    |
 
 ## Table no: Low level test plan
 
